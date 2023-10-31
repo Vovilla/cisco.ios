@@ -53,6 +53,8 @@ plugin_routing:
       redirect: cisco.ios.ios
     ios_ping:
       redirect: cisco.ios.ios
+    ios_pmtu:
+      redirect: cisco.ios.ios
     ios_prefix_lists:
       redirect: cisco.ios.ios
     ios_route_maps:
@@ -188,6 +190,8 @@ plugin_routing:
       redirect: cisco.ios.ios_ospfv2
     ping:
       redirect: cisco.ios.ios_ping
+    pmtu:
+      redirect: cisco.ios.ios_pmtu
     prefix_lists:
       redirect: cisco.ios.ios_prefix_lists
     route_maps:
